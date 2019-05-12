@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AccountDetailsDbModelStoreContainer" CdmEntityContainer="AccountDetailsDbEntities">
+    <EntitySetMapping Name="AccountDetailsTables">
+      <EntityTypeMapping TypeName="AccountDetailsDbModel.AccountDetailsTable">
+        <MappingFragment StoreEntitySet="AccountDetailsTable">
+          <ScalarProperty Name="accountNumber" ColumnName="accountNumber" />
+          <ScalarProperty Name="accountholderName" ColumnName="accountholderName" />
+          <ScalarProperty Name="accountType" ColumnName="accountType" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="phoneNumber" ColumnName="phoneNumber" />
+          <ScalarProperty Name="pincode" ColumnName="pincode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
